@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/media.css">
+    <link rel="stylesheet" href="./src/css/media__phone.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>WellFitness</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__top-left">
+                    <img class="hedaer__logo" src="./src/img/logo.png" alt="logo">
+                    <span onclick="popup2()">Бишкек <img src="./src/img/Polygon 1.png" alt=""></span>
+                </div>
+                <div class="header__top-right">
+                    <span>Для дилеров</span>
+                    <button>Become a Partner </button>
+                    <hr class="line__header">
+                    <p class="header__top-country">+7 (800) 000-00-00<span >MCK</span><img src="./src/img/Polygon 1.png" alt=""></p>
+                    <p class="phone"  onclick="popup(), popup3()">Заказать звонок</p>
+                    <hr class="line__header">
+                    <p class="login">Войти<img src="./src/img/login.png" alt=""></p>
+                </div>
+                <div class="header__mid-right__meadia">
+                    <img src="./src/img/loup__media.png" alt="">
+                    <hr class="line__header">
+                    <img class="header__mid-right__meadia-img2" src="./src/img/cart.png" alt="">
+                    <div class="header__mid-right__meadia-img">
+                        <img src="./src/img/сравнение.png" alt="">
+                        <img src="./src/img/выбранные.png" alt="">
+                        <img src="./src/img/cart.png" alt="">
+                    </div>
+                </div>
+                <div class="header__mid-left__meadia">
+                    <div class="open">
+                        <span onclick="popup2()">Бишкек <img src="./src/img/Polygon 1.png" alt=""></span>
+                        <p class="login">Войти<img src="./src/img/login.png" alt=""></p>
+                        <div class="close">
+                            <div class="close__stick1"></div>
+                            <div class="close__stick2"></div>
+                        </div>
+                    </div>
+                    <input class="search" type="text" placeholder="Поиск">
+                    <h2>Каталог</h2>
+                    <ul class="catalog">
+                        <li>Беговые дорожки</li>
+                        <li>Эллиптические тренажеры</li>
+                        <li>Велотренажеры</li>
+                        <li>Массажное оборудование</li>
+                        <li>Свободные веса</li>
+                        <li>Гребные тренажеры</li>
+                        <li>Функциональный тренинг</li>
+                        <li>Батуты</li>
+                        <li>Горнолыжные тренажеры</li>
+                        <li>Настольный теннис</li>
+                        <li>Уличные виды спорта</li>
+                        <li>Аксессуары для дома</li>
+                        <li>Аксессуары к тренажерам</li>
+                        <li>Силовые тренажеры</li>
+                        <li>Игровые столы</li>
+                        <li>Групповые программы</li>
+                    </ul>
+                    <hr>
+                    <ul class="brend">
+                        <li>Бренды</li>
+                        <li>Сервис</li>
+                        <li>Услуги</li>
+                        <li>Поддержка</li>
+                        <li>О компании</li>
+                        <li>Блог</li>
+                        <li>Где купить</li>
+                        <li>Контакты</li>
+                    </ul>
+                    <hr>
+                    <p class="call__media">+7 (499) 677-56-32 <span>Заказать звонок</span></p>
+                    <hr>                    
+                    <p class="for__media">Для дилеров <span>Become a partner</span> </p>
+                </div>
+                <div class="burger"></div>
+            </div>
+            <div class="popup__header">
+                <div class="header__popup" id="phone" >
+                    <h2 class="popoup-title1">Заявка на обратный звонок</h2>
+                    <p class="input__popup-text">Имя <span>*</span></p>
+                    <input type="text" placeholder="Имя">
+                    <p class="input__popup-text">Телефон <span>*</span></p>
+                    <input type="text" placeholder="+7 (_ _ _) - _ _ _ - _ _ - _ _">
+                    <p class="text__popup">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c <a href="">политикой конфиденциальности</a></p>
+                    <button>Заказать звонок</button>
+                    <div class="popupClose" onclick="popup(), popup3()">
+                        <div class="popupClose__stick1"></div>
+                        <div class="popupClose__stick2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup__header">
+                <div class="header__popup2" id="country" >
+                    <h2 class="popoup-title2">Выберите город</h2>
+                    <input type="text" placeholder="Введите название города ">
+                    <p>Например: <span>Москва Саратов</span></p>
+                    <div class="popupClose" onclick="popup2()">
+                        <div class="popupClose__stick1"></div>
+                        <div class="popupClose__stick2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="header__mid">
+            <div class="container">
+                <div class="header__mid-wrap">
+                    <div class="header__mid-left">
+                        <button><img src="./src/img/menu.png" alt="">Каталог</button>
+                        <img class="search" src="./src/img/search.png" alt="">
+                        <hr class="line__header">
+                        <ul>
+                            <li>Бренды</li>
+                            <li>Сервис</li>
+                            <li>Услуги</li>
+                            <li>Поддержка</li>
+                            <li>О компании</li>
+                            <li>Блог</li>
+                            <li>Где купить</li>
+                            <li>Контакты</li>
+                        </ul>
+                    </div>
+                    <div class="header__mid-right">
+                        <img src="./src/img/сравнение.png" alt="">
+                        <img src="./src/img/выбранные.png" alt="">
+                        <img src="./src/img/cart.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__bottom-wrap">
+                    <p>Для дома<img src="./src/img/btn-header.png" alt=""></p>
+                    <hr class="line__header-bottom">
+                    <p>Для фитнес клуба<img src="./src/img/btn-header.png" alt=""></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sec1">
+            <div class="container">
+                <div class="banner">
+                    <div class="banner__left">
+                        <h4>Zero Runner</h4>
+                        <h2>Бег с нулевой ударной нагрузкой <br> <span>на суставы</span></h2>
+                        <button class="banner__btn">Узнать больше</button>
+                        <img class="banner__img-line" src="./src/img/line_baner1.png" alt="">
+                    
+                    </div>
+                    <div class="banner__right">
+                        <img class="banner__img" src="./src/img/baner1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec2">
+            <div class="container">
+                <div class="fitness">
+                    <h3 class="fitness__title">Тренажеры для дома</h3>
+                    <div class="fitness__bottom">
+                        <div class="fitness__bottom-left">
+                            <div class="fitness__bottom-left__top">
+                                <div class="fitness__bottom-left__top1"><p>Беговые <br> дорожки</p> <img src="./src/img/sec2.1.png" alt=""></div>
+                                <div class="fitness__bottom-left__top1"><p>Эллиптические<br> тренажеры</p> <img src="./src/img/sec2.2.png" alt=""></div>
+                            </div>
+                            <div class="fitness__bottom-left__bottom">
+                                <div class="fitness__bottom-left__bottom1"><p>Батуты</p><img src="./src/img/sec2.7.png" alt=""></div>
+                                <div class="fitness__bottom-left__bottom2"><p>Игровые<br> столы</p><img src="./src/img/sec2.8.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="fitness__bottom-right">
+                            <div class="fitness__bottom-right-top">
+                                <div class="fitness__bottom-right-top1"><p>Велотренажеры</p><img src="./src/img/sec2.3.png" alt=""></div>
+                                <div class="fitness__bottom-right-top2"><p>Горнолыжные <br> тренажеры</p><img src="./src/img/sec2.4.png" alt=""></div>
+                            </div>
+                            <div class="fitness__bottom-right-mid">
+                                <div class="fitness__bottom-right-mid1"><p>Силовые<br> тренажеры</p><img src="./src/img/sec2.5.png" alt=""></div>
+                                <div class="fitness__bottom-right-mid2"><p>Гребные<br> тренажеры</p><img src="./src/img/sec2.6.png" alt=""></div>
+                            </div>
+                            <div class="fitness__bottom-right-bottom">
+                                <div class="fitness__bottom-right-bottom1"><p>Массажные<br> кресла</p><img src="./src/img/sec2.9.png" alt=""></div>
+                                <div class="fitness__bottom-right-bottom2"><p>Фитнес<br> аксессуары </p><img src="./src/img/sec2.10.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="banner__btn">Все категории</button>
+                </div>
+            </div>
+        </section>
+        <section class="sec3">
+            <div class="container">
+                <div class="fitness__club">
+                    <h3 class="fitness__title">Для фитнес клубов</h3>
+                    <div class="fitness__club-bottom">
+                        <div class="fitness__club-bottom-left">
+                            <div class="fitness__club-bottom-left-top"><p>Профессиональные<br> кардиотренажеры</p> <img src="./src/img/sec3.1.png" alt=""></div>
+                            <div class="fitness__club-bottom-left-bottom">
+                                <div class="fitness__club-bottom-left-bottom1"><p>Функциональный<br> тренинг</p><img src="./src/img/sec3.4.png" alt=""></div>
+                                <div class="fitness__club-bottom-left-bottom1"><p>Wellness,<br> СПА, Массаж  </p><img src="./src/img/sec3.5.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="fitness__club-bottom-right">
+                            <div class="fitness__club-bottom-right-top">
+                                <div class="fitness__club-bottom-right-top1"><p>Грузоблочные <br>тренажеры</p><img src="./src/img/sec3.2.png" alt=""></div>
+                                <div class="fitness__club-bottom-right-top1"><p>Свободные<br> веса</p><img src="./src/img/sec3.7.png" alt=""></div>
+                            </div>
+                            <div class="fitness__club-bottom-right-bottom">
+                                <div class="fitness__club-bottom-right-bottom1"><p>Спортивная медицина<br> и реабилитация</p><img src="./src/img/sec3.6.png" alt=""></div>
+                                <div class="fitness__club-bottom-right-bottom1"><p>Тренажеры<br> на свободных весах</p><img src="./src/img/sec3.3.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="banner__btn">Все категории</button>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section class="sec4">
+            <div class="container">
+                <div class="cart__title">
+                    <h3>Акция</h3>
+                    <p>Новинки</p>
+                    <p>Мы рекомендуем</p>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="cart">
+                                <div class="cart1">
+                                    <div class="crt1__img">
+                                        <div class="cart1__img-statick">
+                                            <div class="cart1__img-statick__left">
+                                                <img src="./src/img/ico1.png" alt="">
+                                            </div>
+                                            <div class="cart1__img-statick__right">
+                                                <img src="./src/img/statick.png" alt="">
+                                                <img src="./src/img/heart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <img class="cart1__img-statick__img" src="./src/img/cart__img1.png" alt="">
+                                    </div>
+                                    <div class="cart1__info">
+                                        <div class="exist">
+                                            <span class="lite">В наличии</span>
+                                            <div class="green">
+                                                <div class="row__green"></div>
+                                                <div class="row__green"></div>
+                                                <div class="row__green"></div>
+                                            </div>
+                                            <span class="blue">Есть в шоу-руме</span>
+                                        </div>
+                                        <p class="cart1__text">Беговая дорожка CardioPower S35</p>
+                                        <div class="reit">
+                                            <p>Рейтинг</p>
+                                            <div class="reit__img">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="buy">
+                                            <div class="buy__text">
+                                                <p>1 134 900 P</p>
+                                                <span>1 134 900 P</span>
+                                            </div>
+                                            <button><img src="./src/img/market.png" alt="">Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cart">
+                                <div class="cart1">
+                                    <div class="crt1__img">
+                                        <div class="cart1__img-statick">
+                                            <div class="cart1__img-statick__left">
+                                                <img src="./src/img/ico1.png" alt="">
+                                            </div>
+                                            <div class="cart1__img-statick__right">
+                                                <img src="./src/img/statick.png" alt="">
+                                                <img src="./src/img/heart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <img class="cart1__img-statick__img" src="./src/img/card__img2.png" alt="">
+                                    </div>
+                                    <div class="cart1__info">
+                                        <div class="exist">
+                                            <span class="lite">В наличии</span>
+                                            <div class="green">
+                                                <div class="row__green"></div>
+                                                <div class="row__green"></div>
+                                                <div class="row__green"></div>
+                                            </div>
+                                            <span class="blue">Есть в шоу-руме</span>
+                                        </div>
+                                        <p class="cart1__text">Беговая дорожка CardioPower S35</p>
+                                        <div class="reit">
+                                            <p>Рейтинг</p>
+                                            <div class="reit__img">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="buy">
+                                            <div class="buy__text">
+                                                <p>1 134 900 P</p>
+                                                <span>1 134 900 P</span>
+                                            </div>
+                                            <button><img src="./src/img/market.png" alt="">Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cart">
+                                <div class="cart1">
+                                    <div class="crt1__img">
+                                        <div class="cart1__img-statick">
+                                            <div class="cart1__img-statick__left">
+                                                <img src="./src/img/ico1.png" alt="">
+                                            </div>
+                                            <div class="cart1__img-statick__right">
+                                                <img src="./src/img/statick.png" alt="">
+                                                <img src="./src/img/heart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <img class="cart1__img-statick__img" src="./src/img/card__img3.png" alt="">
+                                    </div>
+                                    <div class="cart1__info">
+                                        <div class="exist">
+                                            <span class="lite">В наличии</span>
+                                            <div class="green">
+                                                <div class="row__green"></div>
+                                                <div class="row__green"></div>
+                                                <div class="row__green"></div>
+                                            </div>
+                                            <span class="blue">Есть в шоу-руме</span>
+                                        </div>
+                                        <p class="cart1__text">Беговая дорожка CardioPower S35</p>
+                                        <div class="reit">
+                                            <p>Рейтинг</p>
+                                            <div class="reit__img">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="buy">
+                                            <div class="buy__text">
+                                                <p>1 134 900 P</p>
+                                                <span>1 134 900 P</span>
+                                            </div>
+                                            <button><img src="./src/img/market.png" alt="">Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cart">
+                                <div class="cart1">
+                                    <div class="crt1__img">
+                                        <div class="cart1__img-statick">
+                                            <div class="cart1__img-statick__left">
+                                                <img src="./src/img/ico1.png" alt="">
+                                            </div>
+                                            <div class="cart1__img-statick__right">
+                                                <img src="./src/img/statick.png" alt="">
+                                                <img src="./src/img/heart.png" alt="">
+                                            </div>
+                                        </div>
+                                        <img class="cart1__img-statick__img" src="./src/img/cart__img4.png" alt="">
+                                    </div>
+                                    <div class="cart1__info">
+                                        <div class="exist">
+                                            <span class="lite">В наличии</span>
+                                            <div class="green">
+                                                <div class="row__green"></div>
+                                                <div class="row__green"></div>
+                                                <div class="row__green"></div>
+                                            </div>
+                                            <span class="blue">Есть в шоу-руме</span>
+                                        </div>
+                                        <p class="cart1__text">Беговая дорожка CardioPower S35</p>
+                                        <div class="reit">
+                                            <p>Рейтинг</p>
+                                            <div class="reit__img">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                                <img src="./src/img/Star.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="buy">
+                                            <div class="buy__text">
+                                                <p>1 134 900 P</p>
+                                                <span>1 134 900 P</span>
+                                            </div>
+                                            <button><img src="./src/img/market.png" alt="">Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <button class="sec4__button">Все товары по акции</button>
+            </div>
+        </section>
+        <section class="sec5">
+            <div class="container">
+                <h3 class="idea__title">Идеи и подборки</h3>
+                <div class="idea">
+                    <div class="idea__cart1">
+                        <div class="idea__cart1_left">    
+                            <h3>Лучшие тренажеры для ЖИРОСЖИГАНИЯ</h3>
+                            <p><img src="./src/img/idea4.png" alt="">Тренировка <br> всего <br> 14 минут</p>
+                            <img src="./src/img/idea5.png" alt="">
+                        </div>
+                        <div class="idea__cart1_right">
+                            <img src="./src/img/idea1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="idea__cart2">
+                        <h3>Кардио-силовая тренировка <span>2 в 1</span></h3>
+                        <img src="./src/img/idea2.png" alt="">
+                    </div>
+                    <div class="idea__cart3">
+                        <h3><span>Беговая <br> дорожка</span> <p> для подготовки к марафону</p> </h3>
+                        <img src="./src/img/idea6.png" alt="">
+                        <img class="idea__img" src="./src/img/idea3.png" alt="">
+                    </div>
+                    <div class="idea__cart1-media">
+                        <div class="idea__cart1_left">    
+                            <h3>Лучшие тренажеры для ЖИРОСЖИГАНИЯ</h3>
+                            <p><img src="./src/img/idea4.png" alt="">Тренировка <br> всего <br> 14 минут</p>
+                            <img src="./src/img/idea5.png" alt="">
+                        </div>
+                        <div class="idea__cart1_right">
+                            <img src="./src/img/idea1.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <button>Полная подборка</button>
+            </div>
+        </section>
+        <section class="sec6">
+            <div class="container">
+                <h3>Популярные бренды</h3>
+                <ul>
+                    <li>Беговые дорожки</li>
+                    <li>Эллиптические тренажеры</li>
+                    <li>Велотренажеры</li>
+                    <li>Силовые тренажеры</li>
+                    <li>Батуты</li>
+                    <li>Игровые столы</li>
+                </ul>
+                <div class="brand">
+                    <div class="brand__top">
+                        <div class="brand__img"><img src="./src/img/brand1.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand2.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand3.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand4.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand5.png" alt=""></div>
+                    </div>
+                    <div class="brand__mid">
+                        <div class="brand__img"><img src="./src/img/brand6.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand7.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand8.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand9.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand10.png" alt=""></div>
+                    </div>
+                    <div class="brand__bottom">
+                        <div class="brand__img"><img src="./src/img/brand11.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand12.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand13.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand14.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand15.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="brand-media">
+                    <div class="brand__top">
+                        <div class="brand__img"><img src="./src/img/brand1.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand2.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand5.png" alt=""></div>
+                    </div>
+                    <div class="brand__mid">
+                        <div class="brand__img"><img src="./src/img/brand6.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand9.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand10.png" alt=""></div>
+                    </div>
+                    <div class="brand__bottom">
+                        <div class="brand__img"><img src="./src/img/brand11.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand12.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand13.png" alt=""></div>
+                    </div>
+                    <div class="brand__bottom">
+                        <div class="brand__img"><img src="./src/img/brand11.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand12.png" alt=""></div>
+                        <div class="brand__img"><img src="./src/img/brand15.png" alt=""></div>
+                    </div>
+                </div>
+                <button>Все бренды</button>
+            </div>
+            <hr>
+        </section>
+        <section class="sec7">
+            <div class="container">
+                <div class="help">
+                    <div class="help1">
+                        <img src="./src/img/help1.png" alt="">
+                        <h4>Помощь покупателю</h4>
+                        <p>Узнайте как приобрести товар, способы доставки и оплаты, а также условия гарантии.</p>
+                        <a href="">Подробнее <img src="./src/img/arrow.png" alt=""> </a>
+                    </div>
+                    <div class="help1">
+                        <img src="./src/img/help2.png" alt="">
+                        <h4>Заявка на сервис</h4>
+                        <p>Оставьте заявку на проведение гарантийного и постгарантийного ремонта.</p>
+                        <a href="">Оставить заявку <img src="./src/img/arrow.png" alt=""></a>
+                    </div>
+                    <div class="help1">
+                        <img src="https://metallotorg18.ru/assets/images/manager.svg" alt="" width="59px" height="59px">
+                        <h4>Личный кабинет</h4>
+                        <p>Личный кабинет дилера с доступом к информационным материалам</p>
+                        <a href="">Стать партнером <img src="./src/img/arrow.png" alt=""></a>
+                    </div>
+                    <div class="help1">
+                        <img src="./src/img/help4.png" alt="">
+                        <h4>Выставочный зал</h4>
+                        <p>Оставьте заявку на посещение шоу-рума в Москве</p>
+                        <a href="">Записаться<img src="./src/img/arrow.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec8">
+            <div class="container">
+                <h3>О компании</h3>
+                <div class="country">
+                    <div class="country__left">
+                        <h4>Надежный партнер с 2005 года для сотен компаний от Калининграда до Владивостока.</h4>
+                        <p>Оптима Импорт — один из самых крупных импортеров фитнес-оборудования, эксклюзивно представляет на российском рынке ведущих мировых производителей: Sole Fitness, Optima Fitness, Halley, Marcy, SKI Simulator и др. <br><br> Мы предлагаем широкий спектр самой современной и качественной продукции как для домашнего, так и для коммерческого фитнеса.</p>
+                    </div>
+                    <div class="country__right">
+                        <img src="./src/img/country.png" alt="">
+                    </div>
+                </div>
+                <button >Подробнее о компании</button>
+            </div>
+        </section>
+        <section class="sec9">
+            <div class="container">
+                <div class="sponsor">
+                    <div class="sponsor__left">
+                        <img src="./src/img/sponsor.png" alt="">
+                    </div>
+                    <div class="sponsor__right">
+                        <h2>Станьте нашим партнером <br> <span>и получите возможность</span> <br> представлять нашу продукцию <br> в вашем регионе.</h2>
+                        <button>Стать партнером</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec10">
+            <div class="container">
+                <div class="cart__blog-title">
+                    <h3>Новости</h3>
+                    <p>Блог</p>
+                </div>
+                <div class="cart-blog1">
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog2.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog3.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog4.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="cart__blog-media">
+                    <div class="swiper mySwiper3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog2.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog3.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog4.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="cart__blog-media2">
+                    <div class="swiper mySwiper4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog2.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog3.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cart__blog">
+                                    <div class="cart__blog1">
+                                        <img src="./src/img/cart__blog4.png" alt="">
+                                        <h4>В продажу поступили тренажеры Nautilus</h4>
+                                        <p>Представляем тренажеры <br> Nautilus 626 серии.</p>
+                                        <span>2021.07.18</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <button>Все новости</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer__top-left">
+                    <ul>
+                        <li class="footer__text">Каталог</li>
+                        <li>Для дома</li>
+                        <li>Для фитнес клубов</li>
+                        <li>Акции</li>
+                        <li>Идеи и подборки </li>
+                        <li>Новинки</li>
+                        <li class="footer__text">Наши бренды</li>
+                    </ul>
+                    <ul>    
+                        <li class="footer__text">Поддержка</li>
+                        <li>Доставка и оплата</li>
+                        <li>Условия возврата</li>
+                        <li>Сервисная заявка</li>
+                        <li>Обслуживание фитнес клубов</li>
+                        <li>FAQ</li>
+                        <li>Инструкции</li>
+                        <li>Гарантия</li>    
+                    </ul>
+                    <ul class="">
+                        <li class="footer__text">Услуги</li>
+                        <li>3D проект</li>
+                        <li>Консалтинг</li>
+                        <li>Бизнес планирование </li>
+                        <li>Лизинг</li>
+                        <li>Trade-IN</li>
+                        <li>В рассрочку</li>                
+                    </ul>
+                    <ul>
+                        <li class="footer__text">О компании</li>
+                        <li>О нас</li>
+                        <li>Наша миссия </li>
+                        <li>Наша команда </li>
+                        <li>Наши проекты</li>
+                        <li>Новости</li>
+                        <li>Блог</li>
+                        <li>Где купить</li>    
+                        <li>Контакты</li>       
+                    </ul>
+                </div>
+                <div class="footer__top-right">
+                    <button>Подписаться на рассылку<img src="./src/img/paper-plane.png" alt=""></button>
+                    <div class="call">
+                        <p>+7 (000) 000-00-00 для Москвы</p>
+                        <p>8 (800) 000-00-00  для России</p>
+                        <p class="footer__bottom-text">Заказать звонок</p>
+                    </div>
+                    <div class="email">
+                        <p>wellfitness@wellfit.ru</p>
+                        <p class="footer__bottom-text">Написать</p>
+                    </div>
+                    <div class="footer__link">
+                        <p><a href="#">Политика конфиденциальности</a></p>
+                        <p><a href="#">Публичная офферта</a></p>
+                    </div>
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="footer__top-right__media">
+                <div class="call">
+                    <p>+7 (000) 000-00-00 для Москвы</p>
+                    <p>8 (800) 000-00-00  для России</p>
+                    <p class="footer__bottom-text">Заказать звонок</p>
+                </div>
+                <div class="email">
+                    <p>wellfitness@wellfit.ru</p>
+                    <p class="footer__bottom-text">Написать</p>
+                </div>
+                <div class="footer__button">
+                    <p class="footer__botton-p">Become a Partner </p>
+                    <p class="footer__button-p">Для дилеров </p>
+                </div>
+                <div class="footer__link">
+                    <button>Подписаться на рассылку<img src="./src/img/paper-plane.png" alt=""></button>
+                    <p><a href="#">Политика конфиденциальности</a></p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer-logo">
+                    <img src="./src/img/logo.png" alt="">
+                    <p>© WellFitness. 2007 Все права защищены</p>
+                </div>
+                <div class="footer__social">
+                    <img src="./src/img/instagram.png" alt="">
+                    <img src="./src/img/facebook.png" alt="">
+                    <img src="./src/img/youtube.png" alt="">
+                </div>
+                <div class="footer__button">
+                    <button class="footer__button1">Become a Partner </button>
+                    <button class="footer__button2">Для дилеров </button>
+                </div>
+                <div class="footer__pay">
+                    <img src="./src/img/visa.png" alt="">
+                    <img src="./src/img/mastercard.png" alt="">
+                    <img src="./src/img/symbols.png" alt="">
+                    <img src="./src/img/paypal.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./src/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", 
+        {
+          slidesPerView: 4,
+          spaceBetween: 30,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+        var swiper = new Swiper(".mySwiper2", 
+        {
+          slidesPerView: 4,
+          spaceBetween: 30,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+        var swiper = new Swiper(".mySwiper4", 
+        {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+        var swiper = new Swiper(".mySwiper3", 
+        {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+    <script src="./src/js/jquery-3.6.0.min.js"></script>
+   
+</body>
+</html>

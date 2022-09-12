@@ -1,0 +1,415 @@
+@media (max-width: 930px) {
+    .container{
+        width: 575px;
+        margin: 0 10px;
+    }
+    body{
+        width: 575px;
+    }
+    .header__top-left img{
+        width: 170px;
+        height: 16.26px;
+    }
+    .header__top-left span{
+        display: none;
+    }
+    .header__mid-right__meadia{
+        margin-left: 140px;
+    }
+    .header__mid-right__meadia-img{
+        display: none;
+    }
+    .header__mid-right__meadia-img2{
+        display: block;
+    }
+    .header__bottom-wrap p{
+        font-size: 12px;
+    }
+    .banner{
+        display: block;
+        padding: 29px 20px;
+        width: 555px;
+        height: 487px;
+    }
+    .banner__left{
+        width: 50%;
+        margin-left: 0;
+    }
+    .banner h4{
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .banner button{
+        padding: 12px 20px 13px;
+        font-size: 12px;
+    }
+    .banner h2{
+        font-size: 24px;
+    }
+    .banner__left img{
+        width: 285px;
+        height: 24px;
+    }
+    .banner__right img{
+        width: 262px;
+        height: 238px;
+        position: relative;
+    }
+    .banner__img-line{
+        position: relative;
+        top: 242px;
+    }
+    .sec2{
+        margin-top: calc(160px + 80px);
+    }
+    .fitness p,
+    .fitness__club p{
+        padding: 18px 0 0 11px;
+    }
+    .fitness__bottom{
+        display: block;
+    }
+    .fitness__bottom-left__top{
+        display: block;
+    }
+    .fitness__bottom-left__top1{
+        width: 299.69px;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+    .fitness__bottom-left__top1 img{
+        width: 200px;
+        height: 150px;
+        left: 99px;
+        bottom: 60px;
+    }
+    
+    .fitness__bottom-right-top,
+    .fitness__bottom-left__top,
+    .fitness__bottom{
+        column-gap: 10px;
+    }
+    .fitness__bottom-left__bottom,
+    .fitness__bottom-right-mid,
+    .fitness__bottom-right-bottom{
+        margin: 10px 10px 10px 0;
+        gap: 10px;
+        display: flex;
+    }
+    .fitness__bottom-right-bottom1,
+    .fitness__bottom-right-bottom2,
+    .fitness__bottom-right-top1,
+    .fitness__bottom-right-top2,
+    .fitness__bottom-right-mid1,
+    .fitness__bottom-right-mid2,
+    .fitness__bottom-left__bottom2,
+    .fitness__bottom-left__bottom1{
+        Width: 145px;
+        Height: 140px;
+    }
+    .fitness__bottom-right-bottom1 img,
+    .fitness__bottom-right-bottom2 img,
+    .fitness__bottom-right-top1 img,
+    .fitness__bottom-right-top2 img,
+    .fitness__bottom-right-mid1 img,
+    .fitness__bottom-right-mid2 img,
+    .fitness__bottom-left__bottom2 img,
+    .fitness__bottom-left__bottom1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .fitness__bottom-right-top1 img{
+        left: 30px;
+        bottom: -6px;
+    }
+    .fitness__bottom-right-top2 img{
+        left: 45px;
+        bottom: 10px;
+    }
+    .fitness__bottom-right-mid1 img{
+        left: 55px;
+        bottom: 9px;
+    }
+    .fitness__bottom-right-mid2 img{
+        left: 46px;
+        bottom: 10px;
+    }
+    .fitness__bottom-left__bottom1 img{
+        left: 40px;
+        bottom: 0px;
+    }
+    .fitness__bottom-left__bottom2 img{
+        left: 45px;
+        bottom: 10px;
+    }
+    .fitness__bottom-right-bottom1 img{
+        bottom: 13px;
+        left: 35px;
+    }
+    .fitness__bottom-right-bottom2 img{
+        bottom: 10px;
+        left: 45px;
+    }
+    .banner__btn{
+        font-size: 12px;
+        padding: 12px 20px 13px;
+    }
+    .sec3 h3,
+    .sec2 h3{
+        font-size: 22px;
+    }
+    .fitness__club-bottom{
+        display: block;
+    }
+    .fitness__club-bottom-left-top{
+        width: 300px;
+        height: 140px;
+    }    
+    .fitness__club-bottom-left-top img{
+        width: 300px;
+        height: 140px;
+    }  
+    .fitness__club-bottom-right-top1,
+    .fitness__club-bottom-right-bottom1,
+    .fitness__club-bottom-left-bottom1{
+        width: 145px;
+        height: 140px;
+    }  
+    .fitness__club-bottom-right-top1 img,
+    .fitness__club-bottom-right-bottom1 img,
+    .fitness__club-bottom-left-bottom1 img{
+        width: 105px;
+        height: 100px;
+    }    
+    .fitness__club-bottom-left-bottom{
+        margin: 10px 0 10px 0;
+        column-gap: 10px;
+    }
+    .fitness__club-bottom-right-top{
+        margin-bottom: 10px;
+        column-gap: 10px;
+    }
+    .fitness__club-bottom-right-bottom{
+        column-gap: 10px;
+    }
+    .fitness__club-bottom-right-top1 img{
+        bottom: 10px;
+        left: 40px;
+    }
+    .fitness__club-bottom-right-bottom1 img{
+        bottom: 25px;
+    }
+    .fitness__club-bottom-left-bottom1 img{
+        bottom: 9px;
+        left: 40px;
+    }
+    .cart1__img-statick__img{
+        width: 220px;
+        height: 220px;
+    }
+    .cart1__img-statick__left img{
+        width: 68.37px;
+        height: 26px;
+    }
+    .exist{
+        column-gap: 10px;
+        flex-wrap: wrap;
+    }
+    .buy__text{
+        display: flex;
+        column-gap: 20px;
+    }
+    .buy button{
+        display: none;
+    }
+    .cart__title p{
+        font-size: 20px;
+    }
+    .cart__title h3{
+        font-size: 22px;
+    }
+    .sec5{
+        margin-bottom: 100px;
+    }   
+    .idea__title{
+        padding: 80px 30px 30px;
+        font-size: 22px;
+        text-align: start;
+    }
+    .idea{
+        display: block;
+        margin: 0;
+    }
+    .idea__cart1{
+        margin-bottom: 10px;
+    }
+    .idea__cart1_left{
+        width: 255px;
+        height: 160px;
+        padding: 15px 60px 0 10px ;
+    }
+    .idea__cart1_left h3{
+        font-size: 15.8032px;
+        text-transform: lowercase;
+    }
+    .idea__cart1_right img{
+        width: 140px;
+        height: 160px;
+        clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0 100%, 13% 54%);
+    }
+    .idea__cart1 p{
+        font-size: 10.54px;
+        margin-bottom: 10px;
+        margin-top: 1px;
+    }
+    .idea__cart1 p img{
+        width: 51px;
+        height: 51px;
+    }
+    .idea__cart1_left img{
+        width: 100px;
+    
+    }
+    .idea__cart2{
+        display: flex;
+        height: 160px;
+        width: 290px;
+    }
+    .idea__cart2 h3{
+        padding: 22px;
+        font-size: 15.38px;
+    }
+    .idea__cart2 h3 span{
+        margin: 0;
+        font-size: 15.38px;
+    }
+    .idea__cart2 img{
+        right: 15px;
+        top: 0px;
+    }
+    .idea__cart1-media{
+        display: flex;
+        margin-top: 15px;
+    }
+    .idea__cart1-media p{
+        font-size: 10.54px;
+        margin-bottom: 10px;
+        margin-top: 1px;
+    }
+    .idea__cart1-media p img{
+        width: 51px;
+        height: 51px;
+    }
+    .sec5 button{
+        margin-left: 0px;
+    }
+    .brand{
+        display: none;
+    }
+    .brand__img{
+        width: 100px;
+        height: 60px;
+    }
+    .brand__img img{
+        width: 65px;
+        height: 33.33px;
+    }
+    .brand-media{
+        display: block;
+    }
+    .sec6 h3{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .sec6 ul{
+        margin: 0;
+        display: none;
+    }
+    .help1{
+        width: 300px;
+        height: 221px;
+        padding: 20px;
+    }
+    .help1 img{
+        width: 50px;
+        height: 50px;   
+    }
+    .help1 h4{
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    .help1 p{
+        font-size: 14px;
+        margin: 10px;
+    }
+    .help1 a img{    
+        width: 7.89px;
+        height: 8.11px;
+    }
+    .country__left{
+        display: block;
+    }
+    .country__left h4{
+        font-size: 18px;
+    }
+    .country__left p{
+        font-size: 14px;
+    }
+    .country__right img{
+        margin-top: 100px;
+        width: 300px;
+        height: 221px;
+    }
+    .sec9{
+        margin-top: 56px;
+    }
+    .mySwiper4{
+        display: block;
+    }
+    .sponsor{
+        flex-direction: column-reverse;
+        width: 300px;
+    }
+    .sponsor__left img{
+        width: 259.79px;
+        height: calc(318.18px - 98px);
+    }
+    .footer{
+        padding: 47px 0px 0px 0;
+    }
+    .footer__top-left{
+        flex-wrap: wrap;
+        column-gap: 30px;
+        width: 300px;
+    }
+    .footer ul{
+        width: 130px;
+    }
+    .footer__text{
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .footer ul li{
+        font-size: 14px;
+        padding-bottom: 8px;
+        line-height: 19.6px;
+    }
+    .footer__top-right__media{
+        display: block;
+        margin-top: 20px;
+    }
+    .footer__top-right__media button{
+        margin-top: 20px;
+    }
+    .footer__bottom{
+        display: block;
+        margin: 20px 0 0;
+        height: 200px;
+    }
+    .footer-logo{
+        margin-bottom: 20px;
+    }
+    .footer__social{
+        margin: 20px 0 20px;
+    }
+}
